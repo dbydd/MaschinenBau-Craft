@@ -1,0 +1,18 @@
+[
+  {
+    "modid": "MaschinenbauCraft",
+    "name": "MaschinenbauCraft",
+    "description": "",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": [
+      "BirkWaldGroup"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }
+]
