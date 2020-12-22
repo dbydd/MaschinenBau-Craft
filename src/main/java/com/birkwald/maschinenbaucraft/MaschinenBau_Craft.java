@@ -7,11 +7,11 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
-public class ExampleMod
+@Mod(modid = com.example.examplemod.MaschinenBau_Craft.MODID, name = com.example.examplemod.MaschinenBau_Craft.NAME, version = com.example.examplemod.MaschinenBau_Craft.VERSION)
+public class MaschinenBau_Craft
 {
-    public static final String MODID = "examplemod";
-    public static final String NAME = "Example Mod";
+    public static final String MODID = "maschinen_bau_craft";
+    public static final String NAME = "MaschinenBau Craft";
     public static final String VERSION = "1.0";
 
     private static Logger logger;
