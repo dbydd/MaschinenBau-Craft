@@ -7,7 +7,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = com.birkwald.MaschinenBau_Craft.MODID, name = com.example.examplemod.MaschinenBau_Craft.NAME, version = com.example.examplemod.MaschinenBau_Craft.VERSION)
+@Mod(modid = com.example.examplemod.MaschinenBau_Craft.MODID, name = com.example.examplemod.MaschinenBau_Craft.NAME, version = com.example.examplemod.MaschinenBau_Craft.VERSION)
 public class MaschinenBau_Craft
 {
     public static final String MODID = "maschinen_bau_craft";
