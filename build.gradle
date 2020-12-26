@@ -33,7 +33,7 @@ minecraft {
 dependencies {
     compile fileTree(dir: '../libs', include: ['*.jar'])
 //    minecraft "net.minecraftforge:forge:1.12.2-14.23.5.2847"
-    compile 'org.apache.commons:commons-math3:3.6.1'
+//    compile 'org.apache.commons:commons-math3:3.6.1'
 }
 
 processResources {
