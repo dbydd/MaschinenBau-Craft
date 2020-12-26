@@ -27,7 +27,7 @@ public class HomogeneousMatrix4d extends Array2DRowRealMatrix {
                 {col1[2], col2[2], col3[2], offsetZ},
                 {col1[3], col2[3], col3[3], 1}
         });
-        //todo check is column vec
+        // todo check is column vec
     }
 
     public PosBasedVec4d operate(PosBasedVec4d v) throws DimensionMismatchException {
