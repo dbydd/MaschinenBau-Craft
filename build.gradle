@@ -1,9 +1,8 @@
-import net.minecraftforge.gradle.user.patcherUser.forge.ForgeExtension
-
 buildscript {
     repositories {
         jcenter()
         mavenLocal()
+        maven { url = 'https://crystal.app.lss233.com/repositories/minecraft' }
         maven { url = 'http://files.minecraftforge.net/maven' }
         maven { url = 'https://dist.creeper.host/Sponge/maven' }
         mavenCentral()
@@ -16,8 +15,8 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle.forge'
 
 version = '1.0.0'
-group = 'com.birkwald.maschinenbaucraft' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'maschinenbaucraft'
+group = 'com.birkwald.mbc' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'mbc'
 
 sourceCompatibility = targetCompatibility = '1.8'
 compileJava {

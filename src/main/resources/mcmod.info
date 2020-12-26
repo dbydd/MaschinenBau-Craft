@@ -1,6 +1,6 @@
 [
 {
-  "modid": "maschinenbaucraft",
+  "modid": "mbc",
   "name": "MaschinenBau Craft",
   "description": "Custom Minecraft forge mod for GKK",
   "version": "${version}",

@@ -1,4 +1,4 @@
-package com.birkwald.maschinenbaucraft.utils.data_containers;
+package com.birkwald.mbc.utils.data_containers;
 
 import org.apache.commons.math3.exception.DimensionMismatchException;
 import org.apache.commons.math3.exception.NoDataException;
