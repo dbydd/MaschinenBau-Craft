@@ -1,10 +1,10 @@
-package com.birkwald.maschinenbaucraft.materials;
+package com.birkwald.maschinenbaucraft.registered_lists;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 
-public class MBCMaterials {
+public class MBCTags {
     // MaterialsGroup
     public static final CreativeTabs MBCMaterials = new CreativeTabs("mbc_materials_group") {
         @Override

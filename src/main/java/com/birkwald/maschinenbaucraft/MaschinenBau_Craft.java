@@ -1,7 +1,7 @@
 package com.birkwald.maschinenbaucraft;
 
+import com.birkwald.maschinenbaucraft.proxy.CommonProxy;
 import com.birkwald.maschinenbaucraft.utils.handler.RegistryHandler;
-import com.birkwald.mbc.proxy.CommonProxy;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -18,8 +18,8 @@ public class MaschinenBau_Craft {
     public static final String Version = "1.0.0";
 
 
-    public static final String CLIENT_PROXY_CLASS = "com.birkwald.mbc.proxy.ClientProxy";
-    public static final String SERVER_PROXY_CLASS = "com.birkwald.mbc.proxy.CommonProxy";
+    public static final String CLIENT_PROXY_CLASS = "com.birkwald.maschinenbaucraft.proxy.ClientProxy";
+    public static final String SERVER_PROXY_CLASS = "com.birkwald.maschinenbaucraft.proxy.CommonProxy";
 
     @Mod.Instance
     public static MaschinenBau_Craft instance;

@@ -1,6 +1,6 @@
 package com.birkwald.maschinenbaucraft.utils.handler;
 
-import com.birkwald.maschinenbaucraft.materials.MaterialItems;
+import com.birkwald.maschinenbaucraft.registered_lists.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -15,7 +15,7 @@ public class RegistryHandler {
     // ItemRegistry
     @SubscribeEvent
     public static void onItemRegister(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(MaterialItems.ITEMS.toArray(new Item[0]));
+        event.getRegistry().registerAll(Items.ITEMS.values().toArray(new Item[0]));
     }
 
     public static void preInitRegistries(FMLPreInitializationEvent event) {
