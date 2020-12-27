@@ -1,6 +1,6 @@
-package com.birkwald.mbc.utils.handler;
+package com.birkwald.maschinenbaucraft.utils.handler;
 
-import com.birkwald.mbc.materials.MaterialItems;
+import com.birkwald.maschinenbaucraft.materials.MaterialItems;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;

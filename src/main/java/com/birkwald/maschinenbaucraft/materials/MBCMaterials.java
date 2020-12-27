@@ -1,4 +1,4 @@
-package com.birkwald.mbc.materials;
+package com.birkwald.maschinenbaucraft.materials;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;

@@ -1,7 +1,7 @@
-package com.birkwald.mbc.utils.useful_matrices;
+package com.birkwald.maschinenbaucraft.utils.useful_matrices;
 
-import com.birkwald.mbc.utils.data_containers.HomogeneousMatrix4d;
-import com.birkwald.mbc.utils.data_containers.PosBasedVec4d;
+import com.birkwald.maschinenbaucraft.utils.data_containers.HomogeneousMatrix4d;
+import com.birkwald.maschinenbaucraft.utils.data_containers.PosBasedVec4d;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Vec3d;
 

@@ -1,6 +1,6 @@
-package com.birkwald.mbc.materials;
+package com.birkwald.maschinenbaucraft.materials;
 
-import com.birkwald.mbc.Reference;
+import com.birkwald.maschinenbaucraft.MaschinenBau_Craft;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;
@@ -17,6 +17,6 @@ public class MaterialItems {
     public static final List<Item> ITEMS = new ArrayList<>();
 
     public static void registerRenderItem(Item item) {
-        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(Reference.MODID, item.getTranslationKey().substring(5)), "inventory"));
+        ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(MaschinenBau_Craft.MODID, item.getTranslationKey().substring(5)), "inventory"));
     }
 }

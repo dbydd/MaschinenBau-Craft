@@ -1,9 +1,7 @@
-package com.birkwald.mbc;
+package com.birkwald.maschinenbaucraft;
 
+import com.birkwald.maschinenbaucraft.utils.handler.RegistryHandler;
 import com.birkwald.mbc.proxy.CommonProxy;
-import com.birkwald.mbc.utils.handler.RegistryHandler;
-import net.minecraft.init.Blocks;
-import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
@@ -13,23 +11,29 @@ import net.minecraftforge.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.fml.common.network.simpleimpl.SimpleNetworkWrapper;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = Reference.MODID, name = Reference.NAME, version = Reference.Version, useMetadata = true)
+@Mod(modid = MaschinenBau_Craft.MODID, name = MaschinenBau_Craft.NAME, version = MaschinenBau_Craft.Version, useMetadata = true)
 public class MaschinenBau_Craft {
+    public static final String MODID = "maschinen_bau_craft";
+    public static final String NAME = "MaschinenBau Craft";
+    public static final String Version = "1.0.0";
+
+
+    public static final String CLIENT_PROXY_CLASS = "com.birkwald.mbc.proxy.ClientProxy";
+    public static final String SERVER_PROXY_CLASS = "com.birkwald.mbc.proxy.CommonProxy";
 
     @Mod.Instance
     public static MaschinenBau_Craft instance;
 
-    @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
+    @SidedProxy(clientSide = CLIENT_PROXY_CLASS, serverSide = SERVER_PROXY_CLASS)
     public static CommonProxy proxy;
     private static SimpleNetworkWrapper network;
+    // log
+    private static Logger logger;
 
     // network
     public static SimpleNetworkWrapper getNetwork() {
         return network;
     }
-
-    // log
-    private static Logger logger;
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

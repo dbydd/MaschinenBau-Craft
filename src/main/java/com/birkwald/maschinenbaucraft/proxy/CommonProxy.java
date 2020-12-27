@@ -1,4 +1,4 @@
-package com.birkwald.mbc.proxy;
+package com.birkwald.maschinenbaucraft.proxy;
 
 import net.minecraft.item.Item;
 

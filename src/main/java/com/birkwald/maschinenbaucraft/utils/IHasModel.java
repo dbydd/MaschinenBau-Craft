@@ -1,4 +1,4 @@
-package com.birkwald.mbc.utils;
+package com.birkwald.maschinenbaucraft.utils;
 
 public interface IHasModel {
 

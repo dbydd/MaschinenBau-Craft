@@ -1,4 +1,4 @@
-package com.birkwald.mbc.renders;
+package com.birkwald.maschinenbaucraft.renders;
 
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;

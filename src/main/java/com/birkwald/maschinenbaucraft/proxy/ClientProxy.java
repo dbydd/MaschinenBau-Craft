@@ -1,4 +1,4 @@
-package com.birkwald.mbc.proxy;
+package com.birkwald.maschinenbaucraft.proxy;
 
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
