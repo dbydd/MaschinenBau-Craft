@@ -18,10 +18,10 @@ public class Items {
             ArrayList<String> subtypeList = item.getSubtypeList();
             int size = subtypeList.size();
             for (int i = 0; i < size; i++) {
-                ModelLoader.setCustomModelResourceLocation(item, i, new ModelResourceLocation(new ResourceLocation(MaschinenBau_Craft.MODID, item.getTranslationKey() + "." + subtypeList.get(i)), "inventory"));
+                ModelLoader.setCustomModelResourceLocation(item, i, new ModelResourceLocation(new ResourceLocation(MaschinenBau_Craft.MODID, item.getRegistryName().getPath() + "/" + subtypeList.get(i)), "inventory"));
             }
         } else {
-            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(MaschinenBau_Craft.MODID, item.getTranslationKey()), "inventory"));
+            ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(new ResourceLocation(MaschinenBau_Craft.MODID, item.getRegistryName().getPath()), "inventory"));
         }
     }
 }
