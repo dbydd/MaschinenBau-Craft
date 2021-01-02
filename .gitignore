@@ -127,3 +127,10 @@ gradle.properties
 /output/production/MaschinenBau-Craft.main/mcmod.info
 /output/production/MaschinenBau-Craft.main/pack.mcmeta
 /output/production/MaschinenBau-Craft.main/assets/mbc/lang/zh_cn.lang
+
+#VSCode
+.settings/
+.vscode/
+.classpath
+.project
+
